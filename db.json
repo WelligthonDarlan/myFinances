@@ -1,24 +1,14 @@
 {
   "transactions": [
     {
-      "name": "Freela",
-      "amount": 800,
-      "id": 1
-    },
-    {
       "name": "Salário",
-      "amount": 3200,
-      "id": 3
+      "amount": 2000,
+      "id": 6
     },
     {
       "name": "Conta de água",
-      "amount": -60,
-      "id": 4
-    },
-    {
-      "name": "Conta de luz",
       "amount": -150,
-      "id": 5
+      "id": 7
     }
   ]
 }

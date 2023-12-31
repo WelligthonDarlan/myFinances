@@ -1,6 +1,5 @@
 let transactions = []
 
-
 function createTransactionContainer(id) {
   const container = document.createElement('div')
   container.classList.add('transaction')
@@ -17,7 +16,6 @@ function createTransactionTitle(name) {
 
 function createTransactionAmount(amount) {
   const span = document.createElement('span') 
-
   const formater = Intl.NumberFormat('pt-br', {
     compactDisplay: 'long',
     currency: 'BRL',
@@ -114,10 +112,8 @@ async function saveTransaction(ev) {
   const transaction = await response.json()
   transactions.push(transaction)
   renderTransaction(transaction)
-
   }
 
-  
   ev.target.reset()
   updateBalance()
 }
